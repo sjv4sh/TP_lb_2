@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <java version="1.8.0_275" class="java.beans.XMLDecoder">
  <object class="sample.Settings" id="Settings0"/>
-<void class="sample.Hierarchy.Cartoon" method="getField">
- <string>creationMethod</string>
- <void method="set">
-  <object class="sample.Hierarchy.Cartoon" id="Cartoon0">
-   <void property="name">
-    <string>Ходячий замок</string>
-   </void>
-   <void property="numberOfArtists">
-    <int>8</int>
-   </void>
-   <void property="paymentToOneParticipantOfFilming">
-    <double>1300.0</double>
-   </void>
-  </object>
-  <string>Нарисованный</string>
+<void class="sample.Hierarchy.GameMovie" id="GameMovie0">
+ <void property="numberOfPeopleInTheSet">
+  <int>14</int>
+ </void>
+ <void property="paymentToOneParticipantOfFilming">
+  <double>500.0</double>
+ </void>
+ <void property="producer">
+  <string>Бондарчук</string>
+ </void>
+ <void property="name">
+  <string>Гроза</string>
  </void>
 </void>
 <void class="sample.Settings" id="Field0" method="getField">
@@ -23,27 +20,11 @@
  <void id="ArrayList0" method="get">
   <object idref="Settings0"/>
   <void method="add">
-   <object class="sample.Hierarchy.GameMovie">
-    <void property="name">
-     <string>Геймеры</string>
-    </void>
-    <void property="numberOfPeopleInTheSet">
-     <int>26</int>
-    </void>
-    <void property="paymentToOneParticipantOfFilming">
-     <double>800.0</double>
-    </void>
-    <void property="producer">
-     <string>Мактави</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="sample.Hierarchy.Cartoon" id="Cartoon1">
+   <object class="sample.Hierarchy.Cartoon" id="Cartoon0">
     <void class="sample.Hierarchy.Cartoon" method="getField">
      <string>creationMethod</string>
      <void method="set">
-      <object idref="Cartoon1"/>
+      <object idref="Cartoon0"/>
       <string>Нарисованный</string>
      </void>
     </void>
@@ -59,23 +40,43 @@
    </object>
   </void>
   <void method="add">
-   <object class="sample.Hierarchy.GameMovie">
-    <void property="name">
-     <string>Гроза</string>
+   <object idref="GameMovie0"/>
+  </void>
+  <void method="add">
+   <object class="sample.Hierarchy.Cartoon" id="Cartoon1">
+    <void class="sample.Hierarchy.Cartoon" method="getField">
+     <string>creationMethod</string>
+     <void method="set">
+      <object idref="Cartoon1"/>
+      <string>Нарисованный</string>
+     </void>
     </void>
-    <void property="numberOfPeopleInTheSet">
-     <int>14</int>
+    <void property="name">
+     <string>Ходячий замок</string>
+    </void>
+    <void property="numberOfArtists">
+     <int>8</int>
     </void>
     <void property="paymentToOneParticipantOfFilming">
-     <double>500.0</double>
-    </void>
-    <void property="producer">
-     <string>Бондарчук</string>
+     <double>1300.0</double>
     </void>
    </object>
   </void>
   <void method="add">
-   <object idref="Cartoon0"/>
+   <object class="sample.Hierarchy.GameMovie">
+    <void property="name">
+     <string>Геймеры</string>
+    </void>
+    <void property="numberOfPeopleInTheSet">
+     <int>26</int>
+    </void>
+    <void property="paymentToOneParticipantOfFilming">
+     <double>800.0</double>
+    </void>
+    <void property="producer">
+     <string>Мактави</string>
+    </void>
+   </object>
   </void>
  </void>
 </void>
