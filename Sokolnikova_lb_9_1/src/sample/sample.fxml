@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="235.0" prefWidth="389.0" style="-fx-background-color: #7FFFD4;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.Controller">
+    <children>
+        <Label fx:id="lblBlack" layoutX="14.0" layoutY="53.0" prefHeight="23.0" prefWidth="99.0" text="Черный" />
+        <ListView fx:id="lstBlack" layoutX="175.0" layoutY="14.0" prefHeight="100.0" prefWidth="200.0" />
+        <ListView fx:id="lstWhite" layoutX="175.0" layoutY="121.0" prefHeight="100.0" prefWidth="200.0" />
+        <Label fx:id="lblWhite" layoutX="14.0" layoutY="160.0" prefHeight="23.0" prefWidth="99.0" text="Белый" />
+    </children>
+</AnchorPane>
