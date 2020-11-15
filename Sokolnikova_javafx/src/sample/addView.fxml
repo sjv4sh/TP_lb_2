@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="365.0" prefWidth="293.0" style="-fx-background-color: #7FFFD4;" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="sample.AddController">
+   <children>
+      <Button fx:id="btnOk" layoutX="112.0" layoutY="318.0" mnemonicParsing="false" onAction="#addMovie" text="Добавить" />
+      <Label layoutX="13.0" layoutY="23.0" text="Название фильма:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField fx:id="txtName" layoutX="140.0" layoutY="19.0" prefHeight="25.0" prefWidth="140.0" />
+      <TextField fx:id="txtPayment" layoutX="181.0" layoutY="50.0" prefHeight="25.0" prefWidth="98.0" />
+      <TextField fx:id="txtProducer" layoutX="93.0" layoutY="162.0" prefHeight="25.0" prefWidth="140.0" />
+      <TextField fx:id="txtCountInGroup" layoutX="129.0" layoutY="194.0" prefHeight="25.0" prefWidth="140.0" />
+      <TextField fx:id="txtMethod" layoutX="129.0" layoutY="227.0" prefHeight="25.0" prefWidth="140.0" />
+      <Label layoutX="15.0" layoutY="54.0" text="Оплата одному участнику:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lProducer" layoutX="13.0" layoutY="166.0" text="Режиссер:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lCountInGroup" layoutX="14.0" layoutY="198.0" text="Человек в группе:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lMethod" layoutX="14.0" layoutY="231.0" text="Способ создания:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <RadioButton fx:id="rbGame" layoutX="43.0" layoutY="104.0" mnemonicParsing="false" onAction="#onClickRb" text="Игровой" />
+      <RadioButton fx:id="rbCartoon" layoutX="43.0" layoutY="130.0" mnemonicParsing="false" onAction="#onClickRb" text="Мультфильм" />
+      <Label layoutX="15.0" layoutY="81.0" text="Тип фильма:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="lCountOfArtist" layoutX="15.0" layoutY="264.0" text="Число художников:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCountOfArtist" layoutX="136.0" layoutY="260.0" prefHeight="25.0" prefWidth="140.0" />
+   </children>
+</AnchorPane>
