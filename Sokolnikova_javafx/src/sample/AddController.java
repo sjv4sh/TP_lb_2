@@ -71,6 +71,8 @@ public class AddController implements Initializable {
 
         if (isEmpty(txtPayment))
             res = "Введите оплату одному участнику";
+        else if (!isDouble(txtPayment.getText()))
+            res = "Некорректный ввод оплаты одному участнику";
         else if (isEmpty(txtName))
             res = "Введите название фильма";
 
@@ -94,7 +96,7 @@ public class AddController implements Initializable {
                 res = "Некорректный ввод числа художников";
 
         } else
-            res = "Выберите вид зарплаты";
+            res = "Выберите вид фильма";
 
         return res;
     }
@@ -150,6 +152,19 @@ public class AddController implements Initializable {
         try
         {
             int d = Integer.parseInt(str); //преобразовываем
+        }
+        catch(NumberFormatException nfe) //если возникает исключение
+        {
+            return false;
+        }
+        return true;
+    }
+
+    private static boolean isDouble(String str) // функция для проверки на возможность перевода строки в значение типа double
+    {
+        try
+        {
+            double d = Double.parseDouble(str); //преобразовываем
         }
         catch(NumberFormatException nfe) //если возникает исключение
         {
