@@ -1,0 +1,73 @@
+[ {
+  "@class" : "sample.models.Satire",
+  "title" : "Алиса в стране чудес",
+  "author" : "Льюис Кэрролл",
+  "rday" : "14.01.1865",
+  "dpopular" : "Весь мир",
+  "typeofissue" : "Бумажный носитель",
+  "id" : 1,
+  "countOfHeroes" : 12,
+  "okCeleb" : true
+}, {
+  "@class" : "sample.models.Detective",
+  "title" : "Алмазная колесница",
+  "author" : "Борис Акунин",
+  "rday" : "22.01.2003",
+  "dpopular" : "Россия",
+  "typeofissue" : "Бумажный носитель",
+  "id" : 2,
+  "numberOfMurdCrimes" : 0,
+  "narTime" : "new1"
+}, {
+  "@class" : "sample.models.Novel",
+  "title" : "Сумерки",
+  "author" : "Майер Стефани Морган",
+  "rday" : "09.01.2005",
+  "dpopular" : "Весь мир",
+  "typeofissue" : "Электронная версия",
+  "id" : 3,
+  "ageMain" : 100.0,
+  "ageSecond" : 17.0,
+  "countTransform" : 2.0
+}, {
+  "@class" : "sample.models.Satire",
+  "title" : "Двенадцать стульев",
+  "author" : "Ильф и Петров",
+  "rday" : "08.01.1927",
+  "dpopular" : "Россия",
+  "typeofissue" : "Бумажный носитель",
+  "id" : 4,
+  "countOfHeroes" : 7,
+  "okCeleb" : true
+}, {
+  "@class" : "sample.models.Detective",
+  "title" : "Убийство на улице Морг",
+  "author" : "Эдгар Аллан По",
+  "rday" : "01.01.1841",
+  "dpopular" : "Весь мир",
+  "typeofissue" : "Бумажный носитель",
+  "id" : 5,
+  "numberOfMurdCrimes" : 1,
+  "narTime" : "new1"
+}, {
+  "@class" : "sample.models.Novel",
+  "title" : "Унесенные ветром",
+  "author" : "Маргарет Митчелл",
+  "rday" : "13.01.1936",
+  "dpopular" : "Весь мир",
+  "typeofissue" : "Бумажный носитель",
+  "id" : 6,
+  "ageMain" : 21.0,
+  "ageSecond" : 18.0,
+  "countTransform" : 1.0
+}, {
+  "@class" : "sample.models.Satire",
+  "title" : "Собачье сердце",
+  "author" : "Михаил Булгаков",
+  "rday" : "19.01.1925",
+  "dpopular" : "Россия",
+  "typeofissue" : "Бумажный носитель",
+  "id" : 7,
+  "countOfHeroes" : 4,
+  "okCeleb" : false
+} ]
